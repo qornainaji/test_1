@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    /* justify-items: center; */
+    /* width: max-content; */
+
+}
+
+.background-up {
+    background: rgba(30, 44, 73, 1.0);
+    height: 50vh;
+    /* max-width: max-content; */
+    /* display: flex; */
+    color: #000000;
+    margin: 0;
+}
+
+.main-body{
+    position: absolute;
+    justify-self: center;
+    /* top: 50%; */
+    /* height: 100%; */
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100 px;
+    margin-bottom: 100px;
+}
+
+/* Intro */
+.h1 {
+    color: white;
+}
+
+.eyebrow {
+    color: white;
+}
+
+/* cards */
+.cards-grid {
+    display: flex;
+    gap: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cards:hover{
+    zoom: 120%;
+
+
+}
